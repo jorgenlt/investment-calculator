@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import {Link} from 'expo-router'
 
 export default function Settings() {
   return (
@@ -10,6 +11,7 @@ export default function Settings() {
       }}
     >
       <Text>Edit app/(tabs)/settings.tsx to edit this screen.</Text>
+      <Link href="/">Go to Home</Link>
     </View>
   );
 }
