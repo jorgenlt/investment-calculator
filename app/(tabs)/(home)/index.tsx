@@ -1,6 +1,5 @@
-import { Text, View, StyleSheet, TextInput } from "react-native";
+import { View, StyleSheet, TextInput } from "react-native";
 import { useState } from "react";
-import { Link } from "expo-router";
 
 export default function Index() {
   const [initialValue, setInitialValue] = useState("");
