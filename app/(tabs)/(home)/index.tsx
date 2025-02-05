@@ -8,7 +8,6 @@ export default function Index() {
   const [duration, setDuration] = useState("");
   const [monthlyDeposit, setMonthlyDeposit] = useState("");
 
-
   return (
     <View style={styles.container}>
       <TextInput
@@ -56,16 +55,3 @@ const styles = StyleSheet.create({
     padding: 10,
   },
 });
-
-{
-  /* <View
-style={{
-  flex: 1,
-  justifyContent: "center",
-  alignItems: "center",
-}}
->
-<Text>Edit app/(tabs)/(home)/index.tsx to edit this screen.</Text>
-<Link href="/settings">Go to Settings</Link>
-</View> */
-}
